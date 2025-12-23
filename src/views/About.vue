@@ -105,7 +105,7 @@
             <h4>Career Timeline</h4>
             <p>Evolution from computer science to full-stack development</p>
             <div class="card-tags">
-              <span class="tag">2020-2024</span>
+              <span class="tag">2023-2025</span>
               <span class="tag">Growth</span>
               <span class="tag">Learning</span>
             </div>
@@ -401,17 +401,17 @@
 
               <div class="cv-section">
                 <h3>Professional Summary</h3>
-                <p>Dedicated full-stack developer with 2+ years of experience creating responsive, dynamic, and accessible web applications. Specialized in Vue.js, JavaScript, PHP, and MySQL with a passion for clean code and user-centered design.</p>
+                <p>Associate Degree candidate (2023–2025) and full-stack developer with practical internship experience and 2+ years building responsive, dynamic web applications. Skilled with Vue.js, React.js/Next.js, JavaScript, PHP, .NET, and databases (MySQL, Postgres, SQL Server). Passionate about clean, maintainable code and user-centered design.</p>
               </div>
 
               <div class="cv-section">
                 <h3>Technical Skills</h3>
                 <div class="skills-categories">
                   <div class="skill-category">
-                    <strong>Frontend:</strong> Vue.js, JavaScript (ES6+), HTML5, CSS3, SCSS, Bootstrap, Responsive Design
+                    <strong>Frontend:</strong> Vue.js, React.js, Next.js, JavaScript (ES6+), HTML5, CSS3, SCSS, Bootstrap, Responsive Design
                   </div>
                   <div class="skill-category">
-                    <strong>Backend:</strong> PHP, Node.js, RESTful APIs, MySQL, Database Design
+                    <strong>Backend:</strong> PHP, .NET, Node.js, RESTful APIs, MySQL, Postgres, SQL Server, Database Design
                   </div>
                   <div class="skill-category">
                     <strong>Tools & Others:</strong> Git, GitHub, Figma, AWS, Jira, Agile Methodology
@@ -421,6 +421,19 @@
 
               <div class="cv-section">
                 <h3>Experience</h3>
+                <div class="experience-item">
+                  <div class="experience-header">
+                    <h4>Intern (Web Development)</h4>
+                    <span class="experience-date">2023</span>
+                  </div>
+                  <p class="experience-company">Local Tech Company (Internship)</p>
+                  <ul class="experience-list">
+                    <li>Assisted in building front-end components using Vue.js</li>
+                    <li>Worked with senior developers to fix bugs and implement features</li>
+                    <li>Gained hands-on experience with version control and team workflows</li>
+                  </ul>
+                </div>
+
                 <div class="experience-item">
                   <div class="experience-header">
                     <h4>Full-Stack Developer</h4>
@@ -440,10 +453,10 @@
                 <h3>Education</h3>
                 <div class="education-item">
                   <div class="education-header">
-                    <h4>Computer Science</h4>
-                    <span class="education-date">2024 - 2025</span>
+                    <h4>Associate Degree</h4>
+                    <span class="education-date">2023 - 2025</span>
                   </div>
-                  <p class="education-school"> Passerelles Numeriques Cambodia</p>
+                  <p class="education-school">Passerelles Numeriques Cambodia</p>
                 </div>
               </div>
 
@@ -452,12 +465,12 @@
                 <div class="project-item">
                   <h4>VC1 Investment Platform</h4>
                   <p>Comprehensive venture capital platform with real-time analytics and portfolio management</p>
-                  <div class="project-tech">Technologies: JavaScript, PHP, MySQL, Bootstrap, AWS</div>
+                  <div class="project-tech">Technologies: JavaScript, PHP, MySQL, Node.js, Bootstrap, AWS</div>
                 </div>
                 <div class="project-item">
                   <h4>Smart Note Taker App</h4>
                   <p>Intelligent note-taking application with AI-powered organization and real-time collaboration</p>
-                  <div class="project-tech">Technologies: Vue.js, JavaScript, IndexedDB, WebRTC</div>
+                  <div class="project-tech">Technologies: Vue.js / React.js, Next.js, JavaScript, IndexedDB, WebRTC</div>
                 </div>
               </div>
             </div>
@@ -505,32 +518,37 @@ const stats = [
 
 const journey = [
   {
-    year: '2020',
-    title: 'Started Computer Science',
-    description: 'Began my journey in computer science and programming fundamentals'
-  },
-  {
-    year: '2022',
-    title: 'Web Development Focus',
-    description: 'Specialized in full-stack web development with Vue.js and PHP'
+    year: '2023 - 2025',
+    title: 'Associate Degree',
+    description: 'Pursuing an Associate Degree in Computer Science — focused coursework and practical projects (2023–2025).'
   },
   {
     year: '2023',
-    title: 'Professional Projects',
-    description: 'Started working on real-world applications and client projects'
+    title: 'Internship',
+    description: 'Completed an internship where I assisted in web development tasks, collaborated with a team, and gained hands-on industry experience.'
   },
   {
     year: '2024',
+    title: 'Professional Projects',
+    description: 'Worked on real-world applications and client projects to apply and expand development skills.'
+  },
+  {
+    year: '2024 - Present',
     title: 'Advanced Development',
-    description: 'Mastering modern frameworks and cloud technologies'
+    description: 'Continuing to master modern frameworks and cloud technologies while contributing to production projects.'
   }
 ]
 
 const skills = [
   { name: 'Vue.js', level: 90, icon: '⚡', color: '#4FC08D' },
+  { name: 'React.js', level: 85, icon: '⚛️', color: '#61DAFB' },
+  { name: 'Next.js', level: 80, icon: '➡️', color: '#000000' },
   { name: 'JavaScript', level: 85, icon: '🟨', color: '#F7DF1E' },
+  { name: '.NET', level: 75, icon: '🔷', color: '#512BD4' },
   { name: 'PHP', level: 80, icon: '🐘', color: '#777BB4' },
   { name: 'MySQL', level: 75, icon: '🗄️', color: '#4479A1' },
+  { name: 'Postgres', level: 70, icon: '🐘', color: '#336791' },
+  { name: 'SQL Server', level: 70, icon: '🗃️', color: '#CC2927' },
   { name: 'CSS/SCSS', level: 88, icon: '🎨', color: '#1572B6' },
   { name: 'Git', level: 82, icon: '📝', color: '#F05032' }
 ]
@@ -568,13 +586,32 @@ const closeModal = () => {
   document.body.style.overflow = 'auto'
 }
 
-const downloadCV = () => {
-  const link = document.createElement('a')
-  link.href = 'https://www.canva.com/design/DAGrvcpifyM/Mwu5Cf83QRrcYUf1zyXnRg/view?utm_content=DAGrvcpifyM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h28a57dcb65' // Updated to match your file name
-  link.download = 'SinaNeak(CV).pdf' // Updated to match your file name
-  document.body.appendChild(link)
-  link.click()
-  document.body.removeChild(link)
+// Downloads CV reliably. Recommended: put your PDF at /public/sina-neak-resume.pdf
+// If you host the PDF at the project's `public/` folder (Vite serves files from /),
+// the path below will be '/sina-neak-resume.pdf'. This fetch+blob approach works
+// for same-origin files and most CORS-enabled external URLs. If fetch fails we
+// fallback to opening the file in a new tab so the user can manually save it.
+const downloadCV = async () => {
+  // Use the actual PDF placed in `public/`. Update filename if you replace it.
+  const CV_FILENAME = 'Neak Sina(Web Developer).pdf'
+  const CV_PATH = '/' + encodeURIComponent(CV_FILENAME)
+  try {
+    const res = await fetch(CV_PATH)
+    if (!res.ok) throw new Error('Network response was not ok')
+    const blob = await res.blob()
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = 'Sina_Neak_Resume.pdf'
+    document.body.appendChild(a)
+    a.click()
+    a.remove()
+    URL.revokeObjectURL(url)
+  } catch (err) {
+    // Fallback: open in new tab (useful if file not present locally or CORS blocks fetch)
+    console.warn('Download failed, opening CV in new tab instead:', err)
+    window.open(CV_PATH, '_blank')
+  }
 }
 
 const viewCV = () => {

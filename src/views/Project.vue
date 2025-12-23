@@ -217,15 +217,15 @@ const projects = ref([
     performance: '96/100'
   },
   {
-    id: 6,
-    title: 'VC2 - Mobile App- System  ',
+  id: 6,
+  title: 'VC2 - Mobile App- System',
     description: 'A responsive portfolio website optimized for mobile devices with progressive web app features, offline support, and smooth animations.',
     category: 'Mobile',
     technologies: ['Laravel', 'React Navtive', 'Git', 'Jira'],
     image: 'https://i.pinimg.com/736x/55/53/29/555329a8c6f637f665bf9df401841ad9.jpg',
     liveLink: 'https://mobile-portfolio.demo',
     githubLink: 'https://github.com/sinaneak/mobile-portfolio',
-    status: 'in-progress',
+  status: 'completed',
     year: '2025',
     stars: '23',
     performance: '94/100'
